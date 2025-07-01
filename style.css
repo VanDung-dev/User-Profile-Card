@@ -12,9 +12,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, 
-    #0a5256 0%,
-    #0A1D56 25%, 
-    #492E87 50%, 
+    #492E87 25%, 
     #37B5B6 75%, 
     #F2F597 100%
   ); 
@@ -76,7 +74,7 @@ span{
   margin-top: 30px;
 }
 .buttons .btn{
-  color: #fff;
+  color: #000;
   text-decoration: none;
   margin: 0 20px;
   padding: 8px 25px;
@@ -84,7 +82,8 @@ span{
   font-size: 18px;
   white-space: nowrap;
   background: linear-gradient(to left, #33d6ffce 25%, #ff9999 75%);
+  box-shadow: inset 0 5px 20px rgba(0,0,0,0.4);
 }
 .buttons .btn:hover{
-  box-shadow: inset 0 5px 20px rgba(0,0,0,0.4);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
 }
